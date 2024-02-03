@@ -11,8 +11,8 @@ const CELL_H:u32 = CANV_H/GRID_H as u32;
 const SFX_VOL:f64 = 0.75;
 
 
-#[global_allocator]
-static ALLOC: wee_alloc::WeeAlloc = wee_alloc::WeeAlloc::INIT;
+// #[global_allocator]
+// static ALLOC: wee_alloc::WeeAlloc = wee_alloc::WeeAlloc::INIT;
 
 static mut GAME_STATE:GameState = GameState::init();
 
