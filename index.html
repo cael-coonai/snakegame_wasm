@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="icon" href="favicon.png">
+    <title>Snake Game</title>
+  </head>
+  <body id="bodyid">
+    <div id="page">
+      <div id="eagarbackgroundload" style="height:0px;opacity:0;">
+        <img src="./assets/backgrounds/dark.png">
+        <img src="./assets/backgrounds/light.png">
+      </div>
+      <div id="scoreblock">
+        <h2 id="score"></h2>
+        <h2 id="highscore"></h2>
+      </div>
+      <canvas id="canvas">The browser doesn't support the canvas</canvas>
+      <div id="controls">
+        <h3>Controls:</h3>
+        <h3>Space - Start</h3>
+        <h3>Arrow Keys - Control Snake</h3>
+        <h3>R - Restart Game</h3>
+        <h3>M - Mute Sound Effects</h3>
+        <h3>W - Toggle Walls (requires restart)</h3>
+      </div>
+    </div>
+    <div id="sfxblock"></div>
+    <script type="module" src="./assets/script.js"></script>
+  </body>
+</html>

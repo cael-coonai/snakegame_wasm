@@ -1,0 +1,18 @@
+#page {
+  background: rgba(46, 46, 46, 0.658);
+  color: white;
+  text-align: center;
+}
+
+#scoreblock {
+  display: flex;
+  justify-content: center;
+}
+
+#scoreblock h2 {
+  padding-inline: 12pt;
+}
+
+#controls {
+  padding-bottom: 12pt;
+}
