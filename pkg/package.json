@@ -1,0 +1,14 @@
+{
+  "name": "snakegame_wasm",
+  "version": "0.1.0",
+  "files": [
+    "snakegame_wasm_bg.wasm",
+    "snakegame_wasm.js",
+    "snakegame_wasm.d.ts"
+  ],
+  "module": "snakegame_wasm.js",
+  "types": "snakegame_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
